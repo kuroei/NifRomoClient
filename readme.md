@@ -11,7 +11,7 @@ NIFTY Romo Project
 ### Driver
 
 * Romo 
-Romoの公式サイト（日本）：http://www.romotive.jp/
+Romoの公式サイト（日本）：(http://www.romotive.jp/)
 * iphone
 iphone5, iphone5s, iphone5c 
 
