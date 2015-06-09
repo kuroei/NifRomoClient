@@ -23,11 +23,11 @@ iphone5, iphone5s, iphone5c
 ## lib
 
 * FacebookSDK.framework 
-Download：https://developers.facebook.com/docs/ios/downloads
+Download：(https://developers.facebook.com/docs/ios/downloads)
 * NCMB.framework
-Download:http://mb.cloud.nifty.com/doc/sdkdownload_ios.html
+Download: (http://mb.cloud.nifty.com/doc/sdkdownload_ios.html)
 * RMCore.framework
-Download:http://www.romotive.com/developers/
+Download: (http://www.romotive.com/developers/)
 
 ## Installation
 
@@ -50,10 +50,11 @@ After installed the pods, you can start this  p-r with  NifRomo.xcworkspace and 
 
 ## About the Controller of this p-r
 
-* 
+* (https://github.com/kuroei/NifRomoController.git)
 
 ## About the MQTT server
 
 this p-r use the 「NIFTYCloud MQTT」as default setting .you also can change it with your MQTT Server.
-* 「NIFTYCloud MQTT」http://cloud.nifty.com/service/mqtt.htm
+
+* 「NIFTYCloud MQTT」(http://cloud.nifty.com/service/mqtt.htm)
 
