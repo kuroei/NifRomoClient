@@ -31,8 +31,8 @@
 #pragma mark IBActions
 
 - (IBAction)ConnectAction:(id)sender {
+	// Send the property to next ViewController
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    //
     ViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"mainview"];
     
     viewController.host = self.host.text;

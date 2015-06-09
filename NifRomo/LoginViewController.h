@@ -8,13 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface LoginViewController : UIViewController
 
-// ui
+// UI
 @property (nonatomic, strong) UIImageView *background;
-
-
 @property (nonatomic, strong) IBOutlet UITextField *host;
 @property (strong, nonatomic) IBOutlet UITextField *port;
 @property (strong, nonatomic) IBOutlet UITextField *username;
