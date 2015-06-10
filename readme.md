@@ -11,14 +11,14 @@ We used the smartphone robot Romo, MQTT and WebRTC to show how to creat a simple
 ### Driver
 
 * Romo 
-Romoの公式サイト（日本）：(http://www.romotive.jp/)
+Romo Official Website (Japan): (http://www.romotive.jp/)
 * iphone
 iphone5, iphone5s, iphone5c 
 
 ### Software
 
-* xcode 6.0 以上
-* ios 7.0 以上
+* xcode 6.0 or later
+* ios 7.0 or later
 
 ## lib
 
@@ -50,7 +50,7 @@ After installed the pods, you can start this  p-r with  NifRomo.xcworkspace and 
 
 ## About the Controller of this p-r
 
-* (https://github.com/kuroei/NifRomoController.git)
+* NifRomoController (https://github.com/kuroei/NifRomoController.git)
 
 ## About the MQTT server
 
