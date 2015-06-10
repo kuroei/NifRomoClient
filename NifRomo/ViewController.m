@@ -125,7 +125,7 @@
         
         if ([topic  isEqual: subTopicPiv]) {
                 [blockSelf takeImageAndSendPush];
-                [blockSelf animation_getface];
+                [blockSelf animation_getPic];
         }
     }];
     
@@ -310,7 +310,7 @@
     });
 }
 
-- (void)animation_getface
+- (void)animation_getPic
 {
     NSArray *myImages = [NSArray arrayWithObjects:
                          [UIImage imageNamed:@"05.png"],
