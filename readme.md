@@ -1,8 +1,8 @@
 NIFTY Romo Project
 ------------------------------------------------------------
 
-本P-rは「クラウドexpo」と「APPS JAPAN」の展示デモのソースです。
-スマホロボットRomo,MQTT,WEBRTCを連携して、IoT関連の簡単デモです。
+This P-r is an simple IoT Demo which has been on show at「Cloud Computing Expo Japan Spring 2015」and「APPS JAPAN 2015」.
+We used the smartphone robot Romo, MQTT and WebRTC to show how to creat a simple application for IoT.
 
 ![img](https://scontent.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11044952_811750628903416_2888003761710349589_n.jpg?oh=2e0e043b78a565b0461c66667c3f3388&oe=56021BAF)
 
@@ -45,8 +45,8 @@ After installed the pods, you can start this  p-r with  NifRomo.xcworkspace and 
 ### Run Application
 
 * input the authentication infomation for MQTT Server at the login screen and connect the Server.
-* do the same thing at Controllor of this p-r
-* then you can control the Romo robot with the Controller
+* do the same thing at Controllor of this p-r.
+* then you can control the Romo robot with the Controller.
 
 ## About the Controller of this p-r
 
