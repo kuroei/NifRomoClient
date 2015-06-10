@@ -62,7 +62,7 @@ This project use the 「NIFTYCloud MQTT」as default setting .you also can change 
 
 This project used the 「NIFTYCloud mobile backend」to save the photos and send the push message to the mobile phones which have been registered in the「NIFTYCloud mobile backend」.
 Also if you want to see the photos which you took from the Client, you need a webserver to display them.
-This project used the 「NIFTYCloud C4SA」to display the photos because「NIFTYCloud C4SA」is alpmost free.
+This project used the 「NIFTYCloud C4SA」to display the photos because「NIFTYCloud C4SA」is almost free.
 
 * 「NIFTYCloud mobile backend」(http://mb.cloud.nifty.com/)
 * 「NIFTYCloud C4SA」(http://c4sa.nifty.com/)
