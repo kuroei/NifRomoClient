@@ -16,7 +16,6 @@
 
 #import "AppDelegate.h"
 #import "RTCPeerConnectionFactory.h"
-#import <NCMB/NCMB.h>
 #import "ViewController.h"
 
 @interface AppDelegate ()
