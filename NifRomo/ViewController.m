@@ -196,7 +196,7 @@
         //save to datastore
         NCMBObject *imageData = [NCMBObject objectWithClassName:@"image"];
         [imageData setObject:fileName forKey:@"imagetitle"];
-        [imageData save:nil];
+        [imageData saveInBackgroundWithBlock:nil];
 
         // get pic from rtcview and send it to mbaas
         GLKView *tempview = self.localView.subviews[0];
