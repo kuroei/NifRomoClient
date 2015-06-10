@@ -124,7 +124,7 @@
         }
         
         if ([topic  isEqual: subTopicPiv]) {
-                [blockSelf takeImageandSendpush];
+                [blockSelf takeImageAndSendPush];
                 [blockSelf animation_getface];
         }
     }];
@@ -180,7 +180,7 @@
     }];
 }
 
-- (void)takeImageandSendpush
+- (void)takeImageAndSendPush
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         //formart filename
