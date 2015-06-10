@@ -1,10 +1,18 @@
-//
-//  ViewController.m
-//  NifRomo
-//
-//  Created by sci01507 on 15-6-5.
-//  Copyright (c) 2015年 iot.team. All rights reserved.
-//
+/*
+ Copyright 2015 NIFTY Corporation All Rights Reserved.
+ 
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ 
+ http://www.apache.org/licenses/LICENSE-2.0
+ 
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+*/
 
 #import <NCMB/NCMB.h>
 #import <AVFoundation/AVFoundation.h>
@@ -116,8 +124,8 @@
         }
         
         if ([topic  isEqual: subTopicPiv]) {
-                [blockSelf takeImageandSendpush];
-                [blockSelf animation_getface];
+                [blockSelf takeImageAndSendPush];
+                [blockSelf animation_getPic];
         }
     }];
     
@@ -172,7 +180,7 @@
     }];
 }
 
-- (void)takeImageandSendpush
+- (void)takeImageAndSendPush
 {
     dispatch_async(dispatch_get_main_queue(), ^{
         //formart filename
@@ -188,7 +196,7 @@
         //save to datastore
         NCMBObject *imageData = [NCMBObject objectWithClassName:@"image"];
         [imageData setObject:fileName forKey:@"imagetitle"];
-        [imageData save:nil];
+        [imageData saveInBackgroundWithBlock:nil];
 
         // get pic from rtcview and send it to mbaas
         GLKView *tempview = self.localView.subviews[0];
@@ -302,7 +310,7 @@
     });
 }
 
-- (void)animation_getface
+- (void)animation_getPic
 {
     NSArray *myImages = [NSArray arrayWithObjects:
                          [UIImage imageNamed:@"05.png"],
