@@ -4,7 +4,7 @@ NIFTY Romo Project
 This project is an simple IoT Demo which has been on show at「Cloud Computing Expo Japan Spring 2015」and「APPS JAPAN 2015」.
 We used the smartphone robot Romo, MQTT and WebRTC to show how to creat a simple application for IoT.
 
-![img](https://scontent.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11393160_823670774378068_6055071381405467661_n.jpg?oh=cd90b4685e1be44f2e0b086f8af8743c&oe=5602782D)
+![img](http://github.com/kuroei/NifRomoClient/blob/master/index.jpg)
 
 ## Requirements
 
