@@ -1,7 +1,0 @@
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AppRTC" "${PODS_ROOT}/Headers/Public/MQTTKit"
-LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/AppRTC/Lib"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AppRTC" -isystem "${PODS_ROOT}/Headers/Public/MQTTKit"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-AppRTC" -l"Pods-MQTTKit" -l"WebRTC" -l"c++" -l"icucore" -l"sqlite3" -l"stdc++.6" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "GLKit" -framework "OpenGLES" -framework "QuartzCore" -framework "Security"
-OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
-PODS_ROOT = ${SRCROOT}/Pods
