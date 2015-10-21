@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7B89A559-D3CA-469C-B3C3-1ED4130D5A4C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NifRomo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>577DD76263DDDA37523033B80F1E6EC7FF9569C2</key>
+		<string>https://github.com/kuroei/NifRomoClient.git</string>
+		<key>747D7F0682B6D7DFDC1CEF1228E1FF80B8599354</key>
+		<string>https://github.com/kuroei/Romolib.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NifRomo.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>577DD76263DDDA37523033B80F1E6EC7FF9569C2</key>
+		<string>..</string>
+		<key>747D7F0682B6D7DFDC1CEF1228E1FF80B8599354</key>
+		<string>../../../../romopr/lib</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kuroei/NifRomoClient.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>577DD76263DDDA37523033B80F1E6EC7FF9569C2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>747D7F0682B6D7DFDC1CEF1228E1FF80B8599354</string>
+			<key>IDESourceControlWCCName</key>
+			<string>lib</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>577DD76263DDDA37523033B80F1E6EC7FF9569C2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NifRomoClient</string>
+		</dict>
+	</array>
+</dict>
+</plist>

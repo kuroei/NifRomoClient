@@ -24,10 +24,11 @@
 #import <AVFoundation/AVFoundation.h>
 
 // add the ARDAppClientDelegate, RTCEAGLVideoViewDelegate ,RMCoreDelegate to interface
-@interface ViewController : UIViewController <RMCoreDelegate, UINavigationControllerDelegate, ARDAppClientDelegate, RTCEAGLVideoViewDelegate>
+@interface ViewController : UIViewController <UINavigationControllerDelegate, ARDAppClientDelegate, RTCEAGLVideoViewDelegate, RMCoreDelegate>
 
 // property for romo
-@property (nonatomic, strong) RMCoreRobotRomo3 *Romo3;
+//@property (nonatomic, strong) RMCoreRobot<HeadTiltProtocol, DriveProtocol, LEDProtocol> *romo3;
+@property (nonatomic, strong) RMCoreRobotRomo3 *romo3;
 
 // UI
 @property (strong, nonatomic) IBOutlet UIButton *backbtn;

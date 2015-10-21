@@ -28,7 +28,8 @@
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 @property (strong, nonatomic) ViewController *viewController;
-@property (nonatomic, strong) RMCoreRobotRomo3 *Romo3;
+@property (nonatomic, strong) RMCoreRobotRomo3 *romo3;
+//@property (nonatomic, strong) RMCoreRobot<HeadTiltProtocol, DriveProtocol, LEDProtocol> *romo3;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;

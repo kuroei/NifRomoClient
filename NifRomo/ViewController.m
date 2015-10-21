@@ -70,7 +70,7 @@
     
     // get the romo-driver obj from delegate
     AppDelegate *mydel = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    self.Romo3 = mydel.Romo3;
+    self.romo3 = mydel.romo3;
     
     __block ViewController * blockSelf = self;
     // define the handler that will be called when MQTT messages are received by the client
@@ -85,40 +85,40 @@
             unsigned int status = (unsigned int) text.integerValue;
             
             if ( ( status & isForward ) > isStop ) {
-                [blockSelf ->_Romo3 driveForwardWithSpeed:0.3];
+                [blockSelf ->_romo3 driveForwardWithSpeed:0.3];
                 [blockSelf animation_forward];
             }
             
             if ( ( status & isBack ) > isStop ) {
-                [blockSelf ->_Romo3 driveBackwardWithSpeed:0.3];
+                [blockSelf ->_romo3 driveBackwardWithSpeed:0.3];
                 [blockSelf animation_back];
             }
             
             if ( (status & isLeft ) > isStop) {
-                [blockSelf ->_Romo3 driveWithLeftMotorPower:-0.5 rightMotorPower:0.8];
+                [blockSelf ->_romo3 driveWithLeftMotorPower:-0.5 rightMotorPower:0.8];
                 [blockSelf animation_left];
             }
             
             if ( (status & isRight) > isStop ) {
-                [blockSelf ->_Romo3 driveWithLeftMotorPower:0.8 rightMotorPower:-0.5];
+                [blockSelf ->_romo3 driveWithLeftMotorPower:0.8 rightMotorPower:-0.5];
                 [blockSelf animation_right];
             }
             
             if ( (status & noForward & noBack & noLeft & noRight ) == status) {
-                [blockSelf ->_Romo3 stopDriving];
+                [blockSelf ->_romo3 stopDriving];
                 [blockSelf animation_standby];
             }
             
             if ( (status & isUp ) > isStop) {
-                [blockSelf ->_Romo3 tiltWithMotorPower:0.2];
+                [blockSelf ->_romo3 tiltWithMotorPower:0.2];
             }
             
             if ( (status & isDown ) > isStop ) {
-                [blockSelf ->_Romo3 tiltWithMotorPower:-0.2];
+                [blockSelf ->_romo3 tiltWithMotorPower:-0.2];
             }
             
             if( (status & noUp & noDown) == status ){
-                [blockSelf ->_Romo3 tiltWithMotorPower:0];
+                [blockSelf ->_romo3 tiltWithMotorPower:0];
             }
             
         }
@@ -156,15 +156,15 @@
     if ([robot isKindOfClass:[RMCoreRobotRomo3 class]]) {
         self.Romo3 = (RMCoreRobotRomo3 *)robot;
         // Change Romo's LED to be solid at 80% power
-        [self.Romo3.LEDs setSolidWithBrightness:0.8];
+        [self.romo3.LEDs setSolidWithBrightness:0.8];
     }
 }
 
 - (void)robotDidDisconnect:(RMCoreRobot *)robot
 {
-    [self.Romo3.LEDs setSolidWithBrightness:0.0];
-    if (robot == self.Romo3) {
-        self.Romo3 = nil;
+    [self.romo3.LEDs setSolidWithBrightness:0.0];
+    if (robot == self.romo3) {
+        self.romo3 = nil;
     }
 }
 

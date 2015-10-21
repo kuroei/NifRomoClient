@@ -11,6 +11,9 @@
 		9CAB88E41B257ABD0032A02F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAB88E11B257ABD0032A02F /* Default.png */; };
 		9CAB88E51B257ABD0032A02F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAB88E21B257ABD0032A02F /* Default@2x.png */; };
 		9CAB88E61B257ABD0032A02F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CAB88E31B257ABD0032A02F /* Default-568h@2x.png */; };
+		9CBC78381BD720760078BADA /* RMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC78371BD720760078BADA /* RMCore.framework */; };
+		9CBC783A1BD7208A0078BADA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC78391BD7208A0078BADA /* FacebookSDK.framework */; };
+		9CBC783C1BD720AB0078BADA /* NCMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CBC783B1BD720AB0078BADA /* NCMB.framework */; };
 		9CCB2FC31B2167E0001B9AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB2FC21B2167E0001B9AC3 /* main.m */; };
 		9CCB2FC61B2167E0001B9AC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB2FC51B2167E0001B9AC3 /* AppDelegate.m */; };
 		9CCB2FC91B2167E0001B9AC3 /* NifRomo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB2FC71B2167E0001B9AC3 /* NifRomo.xcdatamodeld */; };
@@ -42,9 +45,6 @@
 		9CCB301C1B218A91001B9AC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB301B1B218A91001B9AC3 /* CoreGraphics.framework */; };
 		9CCB301E1B218A99001B9AC3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB301D1B218A99001B9AC3 /* ExternalAccessory.framework */; };
 		9CCB30201B218AA2001B9AC3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB301F1B218AA2001B9AC3 /* CoreMotion.framework */; };
-		9CCB30241B218AD5001B9AC3 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB30211B218AD5001B9AC3 /* FacebookSDK.framework */; };
-		9CCB30251B218AD5001B9AC3 /* NCMB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB30221B218AD5001B9AC3 /* NCMB.framework */; };
-		9CCB30261B218AD5001B9AC3 /* RMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCB30231B218AD5001B9AC3 /* RMCore.framework */; };
 		9CCB30291B218CF2001B9AC3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCB30281B218CF2001B9AC3 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +66,40 @@
 		9CAB88E21B257ABD0032A02F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9CAB88E31B257ABD0032A02F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		9CAB89401B25AF5B0032A02F /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		9CBC78151BD7202A0078BADA /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
+		9CBC78161BD7202A0078BADA /* 01icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01icon.png; sourceTree = "<group>"; };
+		9CBC78171BD7202A0078BADA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		9CBC78181BD7202A0078BADA /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		9CBC78191BD7202A0078BADA /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		9CBC781A1BD7202A0078BADA /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		9CBC781B1BD7202A0078BADA /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		9CBC781C1BD7202A0078BADA /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		9CBC781D1BD7202A0078BADA /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		9CBC781E1BD7202A0078BADA /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		9CBC781F1BD7202A0078BADA /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		9CBC78201BD7202A0078BADA /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		9CBC78211BD7202A0078BADA /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		9CBC78221BD7202A0078BADA /* 26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26.png; sourceTree = "<group>"; };
+		9CBC78231BD7202A0078BADA /* 27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27.png; sourceTree = "<group>"; };
+		9CBC78241BD7202A0078BADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CBC78251BD7202A0078BADA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CBC78271BD7202A0078BADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9CBC78291BD7202A0078BADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CBC782A1BD7202A0078BADA /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		9CBC782B1BD7202A0078BADA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CBC782C1BD7202A0078BADA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9CBC782D1BD7202A0078BADA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9CBC782E1BD7202A0078BADA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9CBC782F1BD7202A0078BADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CBC78301BD7202A0078BADA /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9CBC78311BD7202A0078BADA /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9CBC78321BD7202A0078BADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CBC78341BD7202A0078BADA /* NifRomo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NifRomo.xcdatamodel; sourceTree = "<group>"; };
+		9CBC78351BD7202A0078BADA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9CBC78361BD7202A0078BADA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CBC78371BD720760078BADA /* RMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMCore.framework; path = ../../../romopr/lib/RMCore.framework; sourceTree = "<group>"; };
+		9CBC78391BD7208A0078BADA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../romopr/lib/FacebookSDK.framework; sourceTree = "<group>"; };
+		9CBC783B1BD720AB0078BADA /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NCMB.framework; path = ../../../romopr/lib/NCMB.framework; sourceTree = "<group>"; };
 		9CCB2FBD1B2167E0001B9AC3 /* NifRomo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NifRomo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCB2FC11B2167E0001B9AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CCB2FC21B2167E0001B9AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,9 +138,6 @@
 		9CCB301B1B218A91001B9AC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9CCB301D1B218A99001B9AC3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		9CCB301F1B218AA2001B9AC3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		9CCB30211B218AD5001B9AC3 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = lib/FacebookSDK.framework; sourceTree = "<group>"; };
-		9CCB30221B218AD5001B9AC3 /* NCMB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NCMB.framework; path = lib/NCMB.framework; sourceTree = "<group>"; };
-		9CCB30231B218AD5001B9AC3 /* RMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMCore.framework; path = lib/RMCore.framework; sourceTree = "<group>"; };
 		9CCB30271B218CF2001B9AC3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9CCB30281B218CF2001B9AC3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,9 +147,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CCB30241B218AD5001B9AC3 /* FacebookSDK.framework in Frameworks */,
-				9CCB30251B218AD5001B9AC3 /* NCMB.framework in Frameworks */,
-				9CCB30261B218AD5001B9AC3 /* RMCore.framework in Frameworks */,
+				9CBC783C1BD720AB0078BADA /* NCMB.framework in Frameworks */,
+				9CBC783A1BD7208A0078BADA /* FacebookSDK.framework in Frameworks */,
+				9CBC78381BD720760078BADA /* RMCore.framework in Frameworks */,
 				9CCB30201B218AA2001B9AC3 /* CoreMotion.framework in Frameworks */,
 				9CCB301E1B218A99001B9AC3 /* ExternalAccessory.framework in Frameworks */,
 				9CCB301C1B218A91001B9AC3 /* CoreGraphics.framework in Frameworks */,
@@ -144,9 +175,10 @@
 		3A448920F1C3296DCC256209 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9CCB30211B218AD5001B9AC3 /* FacebookSDK.framework */,
-				9CCB30221B218AD5001B9AC3 /* NCMB.framework */,
-				9CCB30231B218AD5001B9AC3 /* RMCore.framework */,
+				9CBC783B1BD720AB0078BADA /* NCMB.framework */,
+				9CBC78391BD7208A0078BADA /* FacebookSDK.framework */,
+				9CBC78371BD720760078BADA /* RMCore.framework */,
+				9CBC78141BD7202A0078BADA /* NifRomo */,
 				9CCB301F1B218AA2001B9AC3 /* CoreMotion.framework */,
 				9CCB301D1B218A99001B9AC3 /* ExternalAccessory.framework */,
 				9CCB301B1B218A91001B9AC3 /* CoreGraphics.framework */,
@@ -168,6 +200,44 @@
 				43294143221CE84F08D7D333 /* Pods.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CBC78141BD7202A0078BADA /* NifRomo */ = {
+			isa = PBXGroup;
+			children = (
+				9CBC78151BD7202A0078BADA /* 01.png */,
+				9CBC78161BD7202A0078BADA /* 01icon.png */,
+				9CBC78171BD7202A0078BADA /* 02.png */,
+				9CBC78181BD7202A0078BADA /* 03.png */,
+				9CBC78191BD7202A0078BADA /* 04.png */,
+				9CBC781A1BD7202A0078BADA /* 05.png */,
+				9CBC781B1BD7202A0078BADA /* 07.png */,
+				9CBC781C1BD7202A0078BADA /* 09.png */,
+				9CBC781D1BD7202A0078BADA /* 10.png */,
+				9CBC781E1BD7202A0078BADA /* 11.png */,
+				9CBC781F1BD7202A0078BADA /* 12.png */,
+				9CBC78201BD7202A0078BADA /* 13.png */,
+				9CBC78211BD7202A0078BADA /* 14.png */,
+				9CBC78221BD7202A0078BADA /* 26.png */,
+				9CBC78231BD7202A0078BADA /* 27.png */,
+				9CBC78241BD7202A0078BADA /* AppDelegate.h */,
+				9CBC78251BD7202A0078BADA /* AppDelegate.m */,
+				9CBC78261BD7202A0078BADA /* LaunchScreen.xib */,
+				9CBC78281BD7202A0078BADA /* Main.storyboard */,
+				9CBC782A1BD7202A0078BADA /* Command.h */,
+				9CBC782B1BD7202A0078BADA /* Default-568h@2x.png */,
+				9CBC782C1BD7202A0078BADA /* Default.png */,
+				9CBC782D1BD7202A0078BADA /* Default@2x.png */,
+				9CBC782E1BD7202A0078BADA /* Images.xcassets */,
+				9CBC782F1BD7202A0078BADA /* Info.plist */,
+				9CBC78301BD7202A0078BADA /* LoginViewController.h */,
+				9CBC78311BD7202A0078BADA /* LoginViewController.m */,
+				9CBC78321BD7202A0078BADA /* main.m */,
+				9CBC78331BD7202A0078BADA /* NifRomo.xcdatamodeld */,
+				9CBC78351BD7202A0078BADA /* ViewController.h */,
+				9CBC78361BD7202A0078BADA /* ViewController.m */,
+			);
+			path = NifRomo;
 			sourceTree = "<group>";
 		};
 		9CCB2FB41B2167E0001B9AC3 = {
@@ -441,6 +511,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		9CBC78261BD7202A0078BADA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBC78271BD7202A0078BADA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		9CBC78281BD7202A0078BADA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CBC78291BD7202A0078BADA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		9CCB2FCD1B2167E0001B9AC3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -546,6 +632,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					/Users/sci01507/Desktop/romopr/lib,
 				);
 				INFOPLIST_FILE = NifRomo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -565,6 +652,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/lib",
+					/Users/sci01507/Desktop/romopr/lib,
 				);
 				INFOPLIST_FILE = NifRomo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -637,6 +725,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		9CBC78331BD7202A0078BADA /* NifRomo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CBC78341BD7202A0078BADA /* NifRomo.xcdatamodel */,
+			);
+			currentVersion = 9CBC78341BD7202A0078BADA /* NifRomo.xcdatamodel */;
+			path = NifRomo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		9CCB2FC71B2167E0001B9AC3 /* NifRomo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

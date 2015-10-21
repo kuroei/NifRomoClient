@@ -149,19 +149,22 @@
     if ([robot isKindOfClass:[RMCoreRobotRomo3 class]]) {
         self.Romo3 = (RMCoreRobotRomo3 *)robot;
         
-        // Change Romo's LED to be solid at 80% power
-        [self.Romo3.LEDs setSolidWithBrightness:0.8];
-        
-        //[self layoutForConnected];
+//         Change Romo's LED to be solid at 80% power
+        [self.romo3.LEDs setSolidWithBrightness:0.8];
     }
+    
+//    if (robot.isDrivable && robot.isHeadTiltable && robot.isLEDEquipped) {
+//        self.romo3 = (RMCoreRobot<HeadTiltProtocol, DriveProtocol, LEDProtocol> *) robot;
+//    }
+    
 }
 
 - (void)robotDidDisconnect:(RMCoreRobot *)robot
 {
-    [self.Romo3.LEDs setSolidWithBrightness:0.0];
+    [self.romo3.LEDs setSolidWithBrightness:0.0];
     
-    if (robot == self.Romo3) {
-        self.Romo3 = nil;
+    if (robot == self.romo3) {
+        self.romo3 = nil;
         
         // [self layoutForUnconnected];
     }
