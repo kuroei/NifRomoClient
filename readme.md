@@ -1,10 +1,10 @@
 NIFTY Romo Project
 ------------------------------------------------------------
 
-This project is an simple IoT Demo which has been on show atÅuCloud Computing Expo Japan Spring 2015ÅvandÅuAPPS JAPAN 2015Åv.
+This project is an simple IoT Demo which has been on show at„ÄåCloud Computing Expo Japan Spring 2015„Äçand„ÄåAPPS JAPAN 2015„Äç.
 We used the smartphone robot Romo, MQTT and WebRTC to show how to creat a simple application for IoT.
 
-![img](http://github.com/kuroei/NifRomoClient/blob/master/index.jpg)
+![img](https://raw.githubusercontent.com/kuroei/NifRomoClient/master/index.jpg)
 
 ## Requirements
 
@@ -23,7 +23,7 @@ iphone5, iphone5s, iphone5c
 ## lib
 
 * FacebookSDK.framework 
-DownloadÅF(https://developers.facebook.com/docs/ios/downloads)
+DownloadÔºö(https://developers.facebook.com/docs/ios/downloads)
 * NCMB.framework
 Download: (http://mb.cloud.nifty.com/doc/sdkdownload_ios.html)
 * RMCore.framework
@@ -54,15 +54,15 @@ After installed the pods, you can start this  project with  NifRomo.xcworkspace 
 
 ## About the MQTT server
 
-This project use the ÅuNIFTYCloud MQTTÅvas default setting .you also can change it with your MQTT Server.
+This project use the „ÄåNIFTYCloud MQTT„Äças default setting .you also can change it with your MQTT Server.
 
-* ÅuNIFTYCloud MQTTÅv(http://cloud.nifty.com/service/mqtt.htm)
+* „ÄåNIFTYCloud MQTT„Äç(http://cloud.nifty.com/service/mqtt.htm)
 
 ## About the Push Message
 
-This project used the ÅuNIFTYCloud mobile backendÅvto save the photos and send the push message to the mobile phones which have been registered in theÅuNIFTYCloud mobile backendÅv.
+This project used the „ÄåNIFTYCloud mobile backend„Äçto save the photos and send the push message to the mobile phones which have been registered in the„ÄåNIFTYCloud mobile backend„Äç.
 Also if you want to see the photos which you took from the Client, you need a webserver to display them.
-This project used the ÅuNIFTYCloud C4SAÅvto display the photos becauseÅuNIFTYCloud C4SAÅvis almost free.
+This project used the „ÄåNIFTYCloud C4SA„Äçto display the photos because„ÄåNIFTYCloud C4SA„Äçis almost free.
 
-* ÅuNIFTYCloud mobile backendÅv(http://mb.cloud.nifty.com/)
-* ÅuNIFTYCloud C4SAÅv(http://c4sa.nifty.com/)
+* „ÄåNIFTYCloud mobile backend„Äç(http://mb.cloud.nifty.com/)
+* „ÄåNIFTYCloud C4SA„Äç(http://c4sa.nifty.com/)
